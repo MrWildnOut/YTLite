@@ -73,7 +73,7 @@ jobs:
     name: 
     runs-on: macos-latest
     permissions:
-      contents: write
+      contents: write, read
 
     steps:
       - name: Checkout Main
